@@ -1,0 +1,185 @@
+
+/* ===HEADER=== */
+
+.page-header {
+
+}
+
+.page-header__nav {
+    display: flex;
+}
+
+
+
+
+.site-nav {
+    display: flex;
+    list-style: none;
+
+}
+
+.site-nav__item {
+margin-right: 20px;
+
+}
+
+.site-nav__item:last-child {
+    margin-right: 0;
+}
+
+.site-nav__link {
+    display: block;
+padding: 10px 20px;
+text-decoration: none;
+/* Цвет от родителя */
+color: green;
+
+}
+
+.site-nav__link--active {
+    color: red;
+}
+
+.site-nav__link:focus,
+.site-nav__link:hover
+{
+    color: orange;
+}
+
+.site-nav__icon {
+ display: inline-block;
+ padding: 5px;
+ background-color: teal;
+ color: #fff;   
+
+}
+/* 
+.site-nav__text {
+
+} */
+
+/* ===LOGO=== */
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+
+
+}
+
+.page-header__logo {
+    margin-left: 50px;
+}
+
+
+
+.logo__image {
+margin-right: 4px;
+}
+ 
+.logo__text {
+
+}
+
+.page-footer {
+    background-color: black;
+}
+
+/* .logo__text--inverse {
+    color: #fff;
+   
+} */
+
+.page-footer__logo {
+    color: #fff;
+}
+
+
+
+/* ===CARD SET=== */
+
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    
+}
+
+.card-set__link {
+    width: 300px;
+    margin: 15px;
+}
+
+/* ===PRODUCT=== */
+/* 
+.product__image {
+
+}
+
+.product__meta {
+
+}
+
+.product__name {
+
+}
+
+.product__price {
+
+}
+
+.product__button {
+
+} */
+
+/* ===Notification=== */
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.notification-success {
+    background-color: green;
+}
+
+.notification-warning {
+    background-color: orange;
+
+}
+
+.notification-error {
+    background-color:red;
+}
+
+.notification__icon {
+    width: 32px;
+    height: 32px;
+    background-color: black;
+   font-size: 40px;
+   display: none;
+
+}
+
+.notification__icon--prepend {
+    margin-right: 20px;
+}
+
+.notification__icon--append {
+    margin-left: 20px;
+    
+}
+
+.notification:hover .notification__icon {
+    display: block;
+}
